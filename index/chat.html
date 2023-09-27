@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="js/app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="title">Чат</div>
+        </header>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="galery.html">Галерея</a>
+        </nav>
+        <main>
+            <h1>Чат</h1>
+            <img src="img/img_chat.jpg" alt="chat"><br>
+            <input type="text" placeholder="Введите Ваше Имя!!!" id="username">
+            <button onclick="hello()">Ввод</button><br>
+            <div id="error_name" class="error_name">
+            </div><br>
+            <div>
+                <form action="message" id="result_name"> Здесь будет Ваше Имя: </form>
+            </div><br>
+            <input type="text" placeholder="Ваше сообщение..." id="message">
+            <button onclick="send()">Ввод</button><br>
+            <div id="error" class="error">
+            </div>
+            <div> <br>
+            </div>
+
+            <form id="result">Здесь будет Ваше сообщение:</form>
+    </div>
+    <p class="text_format"><b>*Лозунги*</b>
+    <ul class="text_format">
+        <li>Я Программист!!!</li>
+        <li>Я Лучше Всех!!! </li>
+        <li>Я Все Смогу!!!</li>
+    </ul>
+    </p>
+
+    </main>
+    <footer class="title">
+        (c)2023
+    </footer>
+    </div>
+
+</body>
+
+</html>

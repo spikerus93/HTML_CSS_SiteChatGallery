@@ -1,0 +1,68 @@
+body {
+    background-color: dimgray;
+}
+
+.container {
+    background-color: aqua;
+    padding: 10px;
+    max-width: 90%;
+    margin:0 auto;
+    border-radius: 5px;
+}
+
+.img_galery{
+    image-orientation: from-image;
+    width: 300;
+    height: 300;
+}
+
+
+header,
+footer {
+    background-color: orange;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    background-color: silver;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.title {
+    text-align: center;
+}
+
+.title {
+    color: green;   
+}
+
+.text_format{
+    color: gold;
+    padding-inline-start: 7%;
+    padding-right: 30px;
+    font-size: large;
+}
+
+.error {
+    color: red;
+    
+}
+
+.error_name {
+    color: red;
+}
